@@ -10,7 +10,7 @@ new Chart(ctx2, {
         data: [100, 200, 300, 400, 500, 600],
         borderWidth: 1,
         backgroundColor: 'rgba(255,255,255,255)',
-            borderColor: 'rgba(153, 102, 255, 1)',
+            borderColor: 'rgba(153, 102, 255, 1)', 
           },
         ],
       },
