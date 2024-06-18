@@ -10,7 +10,7 @@ export async function generatePDF() {
       var pdf = new jsPDF("p", "mm", "a4");
   
       // Definindo a cor de fundo
-      pdf.setFillColor(2, 37, 65); // Cor de fundo em RGB
+      pdf.setFillColor(255, 255, 255); // Cor de fundo em RGB
       pdf.rect(0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight(), 'F');
   
       var imgWidth = 210;
